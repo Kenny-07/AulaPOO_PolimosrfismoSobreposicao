@@ -6,7 +6,9 @@ namespace AulaPOO_PolimosrfismoSobreposicao
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            MegaMan mega = new MegaMan();
+
+            mega.Correr();
         }
     }
 }
